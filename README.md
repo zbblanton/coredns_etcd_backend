@@ -1,6 +1,6 @@
 # CoreDNS Etcd Backend
 
-This is another etcd backend for coredns. I built this plugin for coredns becuase the current etcd plugin does not support multiple subdomains (https://github.com/coredns/coredns/issues/2941). This plugin is based off the current Etcd plugin and the external redis plugin.
+This is another etcd backend for coredns. I built this plugin for coredns because the current etcd plugin does not support multiple subdomains (https://github.com/coredns/coredns/issues/2941). This plugin is based off the current Etcd plugin and the external redis plugin.
 
 # Using this plugin
 
@@ -13,7 +13,7 @@ git clone https://github.com/coredns/coredns
 cd coredns
 ```
 
-Modify the plugins.cfg and add this plugin to it. Something like this:
+Modify the plugin.cfg and add this plugin to it. Something like this:
 
 ```
 ...
